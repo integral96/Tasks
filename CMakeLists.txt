@@ -5,7 +5,7 @@ project(tasks)
 
 find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 
-add_executable(${PROJECT_NAME} main_01.cpp)
+add_executable(${PROJECT_NAME} main_0#.cpp)
 
 
 set_target_properties(${PROJECT_NAME} PROPERTIES
